@@ -1,9 +1,9 @@
-@extends('layouts.welcome')
-@section('body')
+@extends('layouts.app')
+@section('content')
 <div class="container justify-content-center">
     <div class="mt-4 card">
         <div class="card-body bg-white">
-            <form>
+            <form class="m-auto" style="width: 70%">
                 <div class="row">
                     <div class="col-sm">
                         <label>ID</label>
